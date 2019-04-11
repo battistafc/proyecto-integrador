@@ -1,0 +1,233 @@
+html, body {
+    margin:1;
+    padding:1;
+    background-color: gray;
+}
+header {
+    font-style: italic;
+    font-size: 25px;
+    background: linear-gradient(60deg, yellow, blue);
+    /*background: radial-gradient(closest-side at 40% 50%, yellow, blue);*/
+    /*
+    farthest-corner (default)
+    closest-side
+    closest-corner
+    farthest-side
+    */
+}
+
+p {
+    font-size: 18px;
+    font-family: 'Exo 2', sans-serif;
+    word-spacing: 6px;
+    letter-spacing: 6px;
+    line-height: 20px;
+    text-align: justify;
+    width: 70%;
+    max-width: 1200px;
+    min-width: 400px;
+    height: 200px; 
+    overflow: auto;
+    min-height: 200px;
+    border: 3px solid brown;
+    padding: 10px;
+    background: lightcoral;
+    margin: auto;
+    margin-bottom: 25px;
+    /*text-transform: uppercase;*/
+}
+.italica {
+    font-style: italic;
+}
+.negrita {
+    font-weight: bold;
+}
+
+nav {
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index:999999;
+}
+nav ul {
+    list-style: none; 
+    margin: 0;
+    padding: 10;
+    color: rgb(129, 14, 129);
+    text-align: center;
+    background: rgb(43, 226, 217);
+}
+nav ul li {
+    border-width: 4px; 
+    border-style: outset;
+    border-color: rgb(128, 119, 0);
+    border-top-width: 4px;
+    /*border: 2px solid blue;*/
+    width: 150px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    display: inline-block;
+    background: white;
+}
+
+.transform {
+    background: linear-gradient(160deg, yellow,blue);
+}
+.float {
+    float: right;
+    /*position: absolute;*/
+    /*bottom: 20px;*/
+    /*left: 50px;*/
+    margin-left: 50px;
+}
+.float2 {
+   /*position: absolute;*/
+    /*bottom: 140px;*/
+    /*left: 150px;*/
+}
+a {
+    font-size: 20px;
+    color: blue;
+    text-decoration: none;
+}
+strong {
+    display: block;
+}
+#Integrantes {
+    /*background-color: rgb(0, 255, 149)*/;
+    /*background-image: url("../img/best-watercolor-backgrounds.jpg")*/;
+    background: rgb(0, 255, 149);
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;   
+}
+
+.integrantes {
+background: linear-gradient(45deg, rgb(233, 223, 223),rgb(66, 66, 107));
+}
+.integrantes li {
+    font-weight: 1700;
+    width: 700px;
+    max-width: 1200px;
+    min-width: 300px;
+    overflow: auto;
+    height: 50px;
+    text-align: left;
+    font-style: normal;
+    font-size: 20px;
+    margin: auto;
+}
+
+.fotos {
+    background: dimgrey;
+    background-position: center 100%;
+    background-color: #fe7f88;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.transform fotos {
+    translate(35deg; 200px);
+    transform: rotate: (25deg):
+}
+
+
+.eventos {
+    background: dimgrey;
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed:
+}
+.eventos li {
+    font-weight: 900;
+    width: 700px;
+    max-width: 1200px;
+    min-width: 300px;
+    overflow: visible;
+    height: 100px;
+    text-align: left;
+    font-style: oblique;
+    font-size: 20px;
+    margin: auto;
+}
+.submenu {
+    widht: 150px;
+    position: absolute;
+    top: 40;
+}
+.discos {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    text-align: center;
+}
+    
+.discos li {
+    width: 250px;
+    height: 250px;
+    display: inline-block;
+    margin: 40px;
+    position: relative;
+    border-radius: 20px;
+    overflow: hidden;
+    transition: all ease .2s;
+}
+
+.discos li {
+    font-size: 20px;
+    font-style: verdana;
+}
+
+.discos li img {
+    width: 100%;
+    display: block;
+}
+
+.discos li .album {
+    background: black;
+    width: 100%;
+    height: 100%;
+    color: #fff;
+    position: absolute;
+    top: 0;
+    line-height: 250px;
+    font-size: 20px;
+    display: block;
+}
+.discos li:hover {                        
+    transform: scale(1.5) translate(0px, -15px);
+}
+
+.discos li:hover .album {
+    display: none;
+}
+
+@keyframes logo_animado {      /*corresponde a la animacion del logo*/ 
+    0% {
+        width: 500px;
+    }
+    50% {
+        width: 10px;
+        height: 200px;
+        color: yellow;
+        transform: skewX(-45deg);
+    }
+    100% {
+        width: 500px;
+    }
+}
+.transform { 
+    /*transform: translate (200px, 75px);*/
+    /*transform: rotate(5deg);*/
+    /*transform: scale(.7, 2);*/
+    transform: skewX(-15deg) scale(.7, 2); /*este es el logo que sirve*/
+    /*animation-name: logo_animado;
+    animation-duration: 10s;
+    animation-iteration-count: 3;*/
+
+ }
