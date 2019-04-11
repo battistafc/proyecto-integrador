@@ -119,7 +119,6 @@ background: linear-gradient(45deg, rgb(233, 223, 223),rgb(66, 66, 107));
     font-size: 20px;
     margin: auto;
 }
-
 .fotos {
     background: dimgrey;
     background-position: center 100%;
@@ -128,13 +127,10 @@ background: linear-gradient(45deg, rgb(233, 223, 223),rgb(66, 66, 107));
     background-size: cover;
     background-attachment: fixed;
 }
-
 .transform fotos {
     translate(35deg; 200px);
     transform: rotate: (25deg):
 }
-
-
 .eventos {
     background: dimgrey;
     background-position: center top;
