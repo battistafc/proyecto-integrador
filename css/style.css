@@ -21,7 +21,7 @@ p {
     font-family: 'Exo 2', sans-serif;
     word-spacing: 6px;
     letter-spacing: 6px;
-    line-height: 20px;
+    line-height: 18px;
     text-align: justify;
     width: 70%;
     max-width: 1200px;
@@ -31,9 +31,9 @@ p {
     min-height: 200px;
     border: 3px solid brown;
     padding: 10px;
-    background: lightcoral;
+    background: lightblue;
     margin: auto;
-    margin-bottom: 25px;
+    margin-bottom: 20px;
     /*text-transform: uppercase;*/
 }
 .italica {
@@ -82,18 +82,28 @@ nav ul li {
     margin-left: 50px;
 }
 .float2 {
-   /*position: absolute;*/
-    /*bottom: 140px;*/
-    /*left: 150px;*/
+    position: relative;
+    bottom: 550px;
+    left: 390px;
+    border-radius: 20px;
 }
+
+.float3 {
+    position: relative;
+    bottom: -200px;
+    left: 700px;
+}
+
 a {
     font-size: 20px;
     color: blue;
     text-decoration: none;
 }
+
 strong {
     display: block;
 }
+
 #Integrantes {
     /*background-color: rgb(0, 255, 149)*/;
     /*background-image: url("../img/best-watercolor-backgrounds.jpg")*/;
@@ -105,34 +115,36 @@ strong {
 }
 
 .integrantes {
-background: linear-gradient(45deg, rgb(233, 223, 223),rgb(66, 66, 107));
+background: linear-gradient(45deg, rgb(223, 229, 233),rgb(68, 68, 161));
 }
+
 .integrantes li {
-    font-weight: 1700;
+    font-weight: 900;
     width: 700px;
     max-width: 1200px;
     min-width: 300px;
-    overflow: auto;
-    height: 50px;
+    overflow: visible;
+    height: 100px;
     text-align: left;
     font-style: normal;
     font-size: 20px;
     margin: auto;
 }
 .fotos {
-    background: dimgrey;
+    /*background: dimgrey;
     background-position: center 100%;
     background-color: #fe7f88;
     background-repeat: no-repeat;
     background-size: cover;
-    background-attachment: fixed;
+    background-attachment: fixed;*/
 }
 .transform fotos {
-    translate(35deg; 200px);
-    transform: rotate: (25deg):
+    /*translate(35deg; 200px);
+    transform: rotate: (25deg):*/
 }
+
 .eventos {
-    background: dimgrey;
+    background: lightblue;
     background-position: center top;
     background-repeat: no-repeat;
     background-size: cover;
