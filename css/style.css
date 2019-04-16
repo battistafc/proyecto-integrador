@@ -4,7 +4,7 @@ html, body {
     background-color: gray;
 }
 header {
-    font-style: italic;
+    font-style: calibri;
     font-size: 25px;
     background: linear-gradient(60deg, yellow, blue);
     /*background: radial-gradient(closest-side at 40% 50%, yellow, blue);*/
